@@ -20,7 +20,8 @@
 [[1;34mINFO[m] skip non existing resourceDirectory /home/user/lab11-pit/src/test/resources
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mlab11-pit[0;1m ---[m
-[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/user/lab11-pit/target/test-classes
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.2.5:test[m [1m(default-test)[m @ [36mlab11-pit[0;1m ---[m
 [[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
@@ -29,8 +30,8 @@
 [[1;34mINFO[m]  T E S T S
 [[1;34mINFO[m] -------------------------------------------------------
 [[1;34mINFO[m] Running mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
-[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m9[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.222 s[1;31m <<< FAILURE![m -- in mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
-[[1;31mERROR[m] mn.edu.must.sqat.ScholarshipCalculatorTest.scholarship_boundaries_and_tiers -- Time elapsed: 0.058 s <<< FAILURE!
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m9[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.119 s[1;31m <<< FAILURE![m -- in mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
+[[1;31mERROR[m] mn.edu.must.sqat.ScholarshipCalculatorTest.scholarship_boundaries_and_tiers -- Time elapsed: 0.009 s <<< FAILURE!
 org.opentest4j.MultipleFailuresError: 
 Multiple Failures (1 failure)
 	org.opentest4j.AssertionFailedError: expected: <100> but was: <70>
@@ -73,8 +74,8 @@ Multiple Failures (1 failure)
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;31mBUILD FAILURE[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  3.324 s
-[[1;34mINFO[m] Finished at: 2026-11-27T23:16:25+08:00
+[[1;34mINFO[m] Total time:  2.246 s
+[[1;34mINFO[m] Finished at: 2026-11-27T23:34:56+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:3.2.5:test[m [1m(default-test)[m on project [36mlab11-pit[m: [1;31mThere are test failures.[m
 [[1;31mERROR[m] [1;31m[m
