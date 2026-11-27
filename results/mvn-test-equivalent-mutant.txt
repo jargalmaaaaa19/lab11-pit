@@ -1,3 +1,16 @@
+diff --git a/src/main/java/mn/edu/must/sqat/ScholarshipCalculator.java b/src/main/java/mn/edu/must/sqat/ScholarshipCalculator.java
+index 235b855..f653508 100644
+--- a/src/main/java/mn/edu/must/sqat/ScholarshipCalculator.java
++++ b/src/main/java/mn/edu/must/sqat/ScholarshipCalculator.java
+@@ -37,7 +37,7 @@ public class ScholarshipCalculator {
+                 case "A": total += 4; break;
+                 case "B": total += 3; break;
+                 case "C": total += 2; break;
+-                case "D": total += 1; break;
++                case "D": total += 1;
+                 default:  break;
+             }
+         }
 [[1;34mINFO[m] Scanning for projects...
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m---------------------< [0;36mmn.edu.must.sqat:lab11-pit[0;1m >---------------------[m
@@ -29,7 +42,7 @@
 [[1;34mINFO[m]  T E S T S
 [[1;34mINFO[m] -------------------------------------------------------
 [[1;34mINFO[m] Running mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
-[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s -- in mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s -- in mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
 [[1;34mINFO[m] 
 [[1;34mINFO[m] Results:
 [[1;34mINFO[m] 
@@ -38,6 +51,6 @@
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  1.860 s
-[[1;34mINFO[m] Finished at: 2026-11-27T23:35:40+08:00
+[[1;34mINFO[m] Total time:  2.461 s
+[[1;34mINFO[m] Finished at: 2026-11-27T23:48:26+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
